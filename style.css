@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 h1 {
+  font-size: 4rem;
   text-align: center;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.288);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .buttons_box {
   width: 100%;
@@ -29,8 +32,7 @@ h1 {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -38,12 +40,13 @@ h1 {
   width: auto;
   height: auto;
   display: flex;
-  background-color: aqua;
+  background-color: #fff;
   margin-bottom: 50px;
+  box-shadow: 2px 2px 9px 2px rgba(0, 0, 0, 0.164);
 }
 .image_box {
-  width: 300px;
-  height: 180px;
+  width: 250px;
+  height: 150px;
 }
 #food_img {
   width: 100%;
@@ -60,12 +63,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 #food_title {
-  font-size: 25px;
+  font-size: 20px;
 }
 #description {
-  font-size: 18px;
+  font-size: 15px;
 }
